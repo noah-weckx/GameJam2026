@@ -45,5 +45,3 @@ Before starting new work, update your local `main` with `git pull --ff-only orig
 Commit source files, game assets, project configuration, and dependency lockfiles. Do not commit generated dependencies, caches, build output, local environment files, or secrets. Share required environment variable names using `.env.example` with placeholder values only. For large binary assets, agree on Git LFS before adding them.
 
 Keep project files in clear, engine-appropriate folders. Commit the files teammates need to open and build the project; generated build output is ignored.
-
-This is not a drill
