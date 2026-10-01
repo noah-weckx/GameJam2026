@@ -34,3 +34,11 @@ Step 1: make "fake" level
 Step 2: add bugs
 Step 3: ???
 Step 4: Profit
+
+
+bugs:
+	> game crashes if you reach goal
+	> life underflow (make character glitch and make the load time a bit longer)
+	> platforms/walls lack collision sometimes times
+	> distorted sounds
+	> wrong sprites 
