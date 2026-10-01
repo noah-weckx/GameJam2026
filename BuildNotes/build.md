@@ -42,3 +42,5 @@ bugs:
 	> platforms/walls lack collision sometimes times
 	> distorted sounds
 	> wrong sprites 
+	> messy sprites
+	> skybox and character leave trail(see: https://youtu.be/7rPdbTaBrBQ?t=791)
