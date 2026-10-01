@@ -9,9 +9,29 @@ const SVSW_60X = preload("uid://bk1ncwsa633jc")
 @onready var texture_rect_4: TextureRect = $"../TextureRect4"
 @onready var texture_rect_5: TextureRect = $"../TextureRect5"
 
+var collapse_stage := 0
+var background_timer: Timer
+
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -750.0
+
+
+func _ready() -> void:
+	background_timer = Timer.new()
+	background_timer.wait_time = 5.0
+	background_timer.timeout.connect(advance_collapse_background)
+	add_child(background_timer)
+	background_timer.start()
+
+
+func advance_collapse_background() -> void:
+	collapse_stage = mini(collapse_stage + 1, 4)
+	var backgrounds: Array[TextureRect] = [texture_rect, texture_rect_2, texture_rect_3, texture_rect_4, texture_rect_5]
+	for index in backgrounds.size():
+		backgrounds[index].visible = index == collapse_stage
+	if collapse_stage == 4:
+		background_timer.stop()
 
 
 func _physics_process(delta: float) -> void:
