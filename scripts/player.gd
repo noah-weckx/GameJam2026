@@ -1,6 +1,13 @@
 extends CharacterBody2D
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var jump_sound: AudioStreamPlayer2D = $jumpSound
+const _456779__SPACIECAT__GLITCH_6_SPINDOWN = preload("uid://ck0db4nh8lcf8")
+const SVSW_60X = preload("uid://bk1ncwsa633jc")
+@onready var texture_rect: TextureRect = $"../TextureRect"
+@onready var texture_rect_2: TextureRect = $"../TextureRect2"
+@onready var texture_rect_3: TextureRect = $"../TextureRect3"
+@onready var texture_rect_4: TextureRect = $"../TextureRect4"
+@onready var texture_rect_5: TextureRect = $"../TextureRect5"
 
 
 const SPEED = 300.0
