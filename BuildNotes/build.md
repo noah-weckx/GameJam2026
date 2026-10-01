@@ -29,3 +29,8 @@ Git-Hub - Noah
 
 
 Three main pages: title page, general gameplay page, glitch page
+
+Step 1: make "fake" level
+Step 2: add bugs
+Step 3: ???
+Step 4: Profit
