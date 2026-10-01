@@ -1,5 +1,9 @@
 # GameJam2026
 
+## Godot project
+
+Open the repository root (`project.godot`) in Godot 4.7 or later. Press F5 to run the project. Move with A/D and jump with W.
+
 ## Python setup
 
 Create a virtual environment from the repository root, activate it, and install the shared requirements file.

@@ -38,3 +38,7 @@ tmp/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Godot-generated files
+.godot/
+/android/
