@@ -44,3 +44,9 @@ bugs:
 	> wrong sprites 
 	> messy sprites
 	> skybox and character leave trail(see: https://youtu.be/7rPdbTaBrBQ?t=791)
+
+## Tasks
+* obstacles (tiebe, nadia)
+* implement background and changing background (diego)
+* implement sounds (ifeanyi)
+* implement starting screen and glitch screen (noah)
