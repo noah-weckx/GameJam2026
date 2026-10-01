@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://bi0wgh043bnk0" path="res://assets/backgrounds/static/resized_tower_collapse_2.png" id="4_dywbp"]
 [ext_resource type="Texture2D" uid="uid://6pyhjjh5o6mv" path="res://assets/backgrounds/static/resized_tower_collapse_3.png" id="5_1seuy"]
 [ext_resource type="Texture2D" uid="uid://i5f8bc8ucyup" path="res://assets/backgrounds/static/resized_tower_collapse_4.png" id="6_2r1tl"]
+[ext_resource type="Texture2D" uid="uid://brqabpeawwhym" path="res://assets/backgrounds/static/Start_Screen.jpg" id="9_plydf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4tcl0"]
 texture = ExtResource("1_x6ivy")
@@ -462,3 +463,10 @@ tile_set = SubResource("TileSet_yvnae")
 
 [node name="CharacterBody2D" parent="." unique_id=60401588 instance=ExtResource("2_4tcl0")]
 position = Vector2(103, 520)
+
+[node name="start-screen" type="TextureRect" parent="." unique_id=1278449407]
+offset_left = 22.0
+offset_top = -426.0
+offset_right = 2752.0
+offset_bottom = 1110.0
+texture = ExtResource("9_plydf")
