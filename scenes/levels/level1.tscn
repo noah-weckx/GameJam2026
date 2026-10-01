@@ -1,6 +1,7 @@
 [gd_scene format=4 uid="uid://b73qubkpli8cn"]
 
 [ext_resource type="Texture2D" uid="uid://c5mnkl5yhuayd" path="res://assets/backgrounds/static/resized_tower_collapse_5.png" id="1_2r1tl"]
+[ext_resource type="Script" uid="uid://b5gpjwoihv3uh" path="res://scenes/levels/level_1.gd" id="1_8a7m2"]
 [ext_resource type="Texture2D" uid="uid://mdw4fsuryr61" path="res://assets/backgrounds/static/resized_tower_collapse_1.png" id="1_bfxgj"]
 [ext_resource type="Texture2D" uid="uid://2r18tm2pw8ls" path="res://assets/images/tilemap/industrial.v2.png" id="1_x6ivy"]
 [ext_resource type="PackedScene" uid="uid://j54lupoylhq8" path="res://scenes/player.tscn" id="2_4tcl0"]
@@ -426,6 +427,7 @@ physics_layer_0/collision_layer = 1
 sources/3 = SubResource("TileSetAtlasSource_4tcl0")
 
 [node name="LevelRoot" type="Node2D" unique_id=239980392]
+script = ExtResource("1_8a7m2")
 
 [node name="TextureRect5" type="TextureRect" parent="." unique_id=2086248758]
 offset_right = 1280.0
@@ -433,25 +435,21 @@ offset_bottom = 720.0
 texture = ExtResource("1_2r1tl")
 
 [node name="TextureRect4" type="TextureRect" parent="." unique_id=541355906]
-visible = false
 offset_right = 1280.0
 offset_bottom = 720.0
 texture = ExtResource("6_2r1tl")
 
 [node name="TextureRect3" type="TextureRect" parent="." unique_id=1621441938]
-visible = false
 offset_right = 1280.0
 offset_bottom = 720.0
 texture = ExtResource("5_1seuy")
 
 [node name="TextureRect2" type="TextureRect" parent="." unique_id=483675856]
-visible = false
 offset_right = 1280.0
 offset_bottom = 720.0
 texture = ExtResource("4_dywbp")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=108902023]
-visible = false
 offset_right = 1280.0
 offset_bottom = 720.0
 texture = ExtResource("1_bfxgj")
