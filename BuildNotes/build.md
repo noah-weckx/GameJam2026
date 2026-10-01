@@ -37,7 +37,7 @@ Step 4: Profit
 
 
 bugs:
-	> game crashes if you reach goal
+	> game crashes if you reach goal (show win screen for a second before crash)
 	> life underflow (make character glitch and make the load time a bit longer)
 	> platforms/walls lack collision sometimes times
 	> distorted sounds
